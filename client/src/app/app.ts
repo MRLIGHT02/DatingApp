@@ -7,5 +7,5 @@ import { Component, signal } from '@angular/core';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('client');
+  protected readonly title = 'DatingApp';
 }
