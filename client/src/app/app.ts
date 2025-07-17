@@ -12,7 +12,10 @@ export class App implements OnInit {
   protected readonly title = signal('client');
   http = inject(HttpClient);
 
+  /**
+   * Angular lifecycle hook that is called after data-bound properties are initialized.
+   */
   ngOnInit(): void {
-    this.http.get('/api/hello').subscribe({}), {
-    }
+    // Initialization logic here
   }
+}
