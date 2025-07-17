@@ -9,7 +9,7 @@ import { inject } from '@angular/core';
   styleUrl: './app.css'
 })
 export class App implements OnInit {
-  protected readonly title = signal('client');
+  protected readonly title = 'DatingApp';
   http = inject(HttpClient);
   users: any;
   /**
